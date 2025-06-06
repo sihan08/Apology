@@ -41,15 +41,15 @@ function flashRainbowColors(callback) {
 }
 
 // Function to display the cat.gif initially
-function displayCat() {
+function displaylbxx() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
     var catImage = new Image();
     // Set the source (file path) for the cat image
-    catImage.src = 'cat.gif'; // Assuming the cat image is named "cat.gif"
+    catImage.src = 'lbxx.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
-    catImage.alt = 'Cat';
+    catImage.alt = 'lbxx';
     // When the cat image is fully loaded, add it to the image container
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
@@ -67,7 +67,7 @@ function displayTenor() {
     // Set the source (file path) for the cat-heart image
     catHeartImage.src = 'tenor.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
-    catHeartImage.alt = 'Cat Heart';
+    catHeartImage.alt = 'tenor';
     // When the cat-heart image is fully loaded, add it to the image container
     catHeartImage.onload = function() {
         imageContainer.appendChild(catHeartImage);
