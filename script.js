@@ -77,4 +77,4 @@ function displayTenor() {
 }
 
 // Display the cat.gif initially
-displayCat();
+displaylbxx();
